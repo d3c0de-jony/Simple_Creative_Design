@@ -1,4 +1,112 @@
 body {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#top-heading {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+#about-website{
+    background: rgb(0, 0, 0);
+    color: blueviolet;
+    margin: 20px;
+    
+}
+
+
+.item-container {
+    
     color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.item-1 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;;;
+}
+
+.item-2 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;;;
+}
+
+.item-3 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    ;;
+}
+
+.item-4 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    ;;
+}
+
+.item-5 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;;;;
+}
+
+.item-6 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;;
+}
+
+.item-7 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;;
+}
+
+#item {
+    margin: auto;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+button {
+    margin: auto;
+    display: flex; 
+    position: relative;
+    top: px;
+    width: 100px;
+    text-align: center;
+}
+
+.circle {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
 }
